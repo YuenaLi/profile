@@ -1,0 +1,113 @@
+body {
+	text-align: center;
+	font-family: "YuGothic","Yu Gothic","Meiryo","ヒラギノ角ゴ","sans-serif";
+}
+
+
+#intro {
+    color:#fff;
+    background-image: linear-gradient(to bottom, #2af598, #08aeea);
+}
+
+#intro h1 {
+	margin: 5px 0 5px 0;
+}
+
+.leaving {
+	background-color: #e8e230 !important;
+}
+
+.info-wrapper h1 {
+	font-size: 40px;
+}
+
+.slogan {
+	font-size: 40px;
+	font-family: fantasy;
+	margin: 5px 0 10px 0;
+}
+
+.rsize{
+	font-size: 20px;
+	font-weight: bold;
+    margin: 5px 0 5px 0;
+
+}
+
+
+/*ここからはproject*/
+
+.section {
+	background-color: #00DF7A;
+}
+
+
+.section h1 {
+	color: white;
+	text-shadow: 2px 2px 8px #808080;
+	font-size: 56px;
+	margin-bottom: 0;
+}
+
+/*
+h4 {
+	color: white;
+	font-size: 36px;
+	margin-top:-10px;
+	margin-bottom: 10px;
+}
+*/
+
+.pale {
+	background: transparent;
+}
+
+
+
+
+.skill-box p{
+	display: inline-block;
+    padding:5px 9px;
+	border-radius: 10px;
+	background-color: #1F3930;
+	color: #ECE3D2;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/*
+.skill-box {
+	position: relative;
+	margin-top: 10%;
+}*/
+
+.skill-box div {
+	margin-top: -20px;
+}
+
+
+.detail {
+	height: 150px;
+}
+
+
+.work h3 {
+	font-size:40px;
+	color: #fff;
+	margin-top: -10px;
+	text-shadow: 2px 2px 8px #808080;
+	margin-bottom: 20px;
+}
+
+.work p{
+   font-size: 25px;
+   color: #fff;
+   opacity:0.9;
+   margin-top: -25px;
+   font-weight: 600;
+   text-shadow: 2px 2px 8px #808080;
+}
+
+span {
+	color: #2A9146;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<title>LiYuena's Profile</title>
+
+  <link rel="stylesheet" type="text/css" href="profile.css">
+  <link rel="stylesheet" type="text/css" href="jquery.pagepiling.css">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.pagepiling.js"></script>
+  
+  <script type="text/javascript">
+    
+    $(document).ready(function() {
+  $('#pagepiling').pagepiling({
+    onLeave: function(index){     
+        if (index == 2 ) {
+          $('#project').addClass('leaving');
+        } else {
+          $('#project').removeClass('leaving');
+        }
+
+        if (index == 3 ) {
+          $('#skills').addClass('leaving');
+        } else {
+          $('#skills').removeClass('leaving');
+        }       
+
+        if (index == 4 ) {
+          $('#experience').addClass('leaving');
+        } else {
+          $('#experience').removeClass('leaving');
+        }      
+ 
+    }
+  });
+});
+  </script>
+
+
+
+
+</head>
+<body>
+
+  
+ 
+  <div id="pagepiling">
+    
+   <div class="section" id="intro"> 
+        <div>
+           <img src="img/profile-icon.gif" alt="photo" height="200px" width="200px">
+           <h1>LI YUENA</h1>
+           <p class="slogan">Passionate, Creative, Devoted</p> 
+           <p class="rsize">UX web director @Rakuten.Inc</p>
+           <p class="rsize">Contact me : yuena.li@outlook.com</p>  
+        </div>
+
+   </div>
+  
+  <div class="section" id="project"> 
+      <div>
+        <h1>PERSONAL PROJECTS</h1>
+      </div>
+      
+        <div class="lists">
+          <div class="list01">
+            <img src="" alt="">
+            <h2></h2>
+            <p></p>
+          </div> 
+          <div class="list02">
+            <img src="" alt="">
+            <h2></h2>
+            <p></p>
+          </div> 
+        </div>  
+
+  </div>
+
+  <div class="section" id="skills"> 
+    <h1>SKILLS</h1>  
+    <div class="skill-box">
+      <div>
+        <p>HTML</p>
+        <p>CSS</p>     
+      </div>
+      <div>
+        <p class="detail_active">JavaScript</p>
+        <p>jQuery</p>
+        <!--<p>React</p>-->
+        <p>Bootstrap</p> 
+      </div>
+      <div>
+        <p>Photoshop</p>
+        <p>UX Design</p>
+      </div>
+      <div>
+        <p>Chinese</p>
+        <p>Japanese</p>
+        <p>English</p>
+      </div>
+    </div>
+    <div id="detail">
+      現職で使用。<br>
+      ページの編集などtexttexttexttexttexttexttext<br>
+      texttexttexttexttexttexttexttexttexttext<br>
+    </div>
+  </div>
+
+  <div class="section" id="experience"> 
+    <h1>EXPERIENCE</h1>
+    <div class="work">
+      <h3>楽天 Web Director</h3>
+      <p>2017年4月　入社</p>
+      <p><span>お買いものマラソン</span>と<span>スーパーSALE</span>を担当</p>
+      <p>2017年12月</p>
+      <p>Rookie Award Grand Prize</p>
+      <p>2018年2月</p>
+      <p>Department　Monthly MVP</p>
+      <p>2018年10月</p>
+      <p>Market Business Award 3rd Prize</p>
+    </div>
+      
+</div>
+</div>
+  
+    
+
+</body>
+</html>
+
+
